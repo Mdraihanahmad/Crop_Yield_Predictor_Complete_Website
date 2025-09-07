@@ -4,17 +4,18 @@
   "version": "0.0.1",
   "type": "module",
   "engines": {
-    "node": "20.x"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "vite",
     "api": "node server.js",
     "dev:all": "concurrently \"npm run api\" \"npm run dev\"",
-    "build": "npx vite build",
-    "build:client": "vite build",
+    "build": "npx --yes vite build",
+    "build:client": "npx --yes vite build",
     "start": "node server.js",
     "serve": "node server.js",
-    "preview": "vite preview"
+    "preview": "npx --yes vite preview",
+    "postinstall": "cross-env-shell \"chmod +x node_modules/.bin/vite || exit 0\""
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -27,6 +28,7 @@
     "@vitejs/plugin-react": "^4.3.0",
     "autoprefixer": "^10.4.20",
     "concurrently": "^8.2.2",
+    "cross-env-shell": "^7.0.3",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
   }

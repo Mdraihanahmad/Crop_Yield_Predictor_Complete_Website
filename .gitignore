@@ -1,15 +1,17 @@
-# Dependencies
+# dependencies
 node_modules
 
-# Build output
+# build output
 dist
 .vercel
 
-# Logs
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Editor
+# editor / system files
 .vscode
 .DS_Store
+*.swp
