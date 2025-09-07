@@ -667,7 +667,7 @@ const App = () => {
                       Open in New Tab
                     </button>
                   </div>
-                  <p className="text-[10px] text-emerald-100/40 mt-2 max-w-sm leading-relaxed">Service owners must remove X-Frame-Options=DENY/SAMEORIGIN or set CSP frame-ancestors including this domain to allow embedding.</p>
+                  <p className="text-[10px] text-emerald-100/40 mt-2 max-w-sm leading-relaxed">Service owners must remove X-Frame-Options=DENY/SAMEORIGIN or set CSP frame-ancestor including this domain to allow embedding.</p>
                 </div>
               )}
               {/* Iframe */}
