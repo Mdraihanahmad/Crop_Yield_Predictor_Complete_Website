@@ -10,7 +10,7 @@
     "dev": "vite",
     "api": "node server.js",
     "dev:all": "concurrently \"npm run api\" \"npm run dev\"",
-    "build": "vite build",
+    "build": "npx vite build",
     "build:client": "vite build",
     "start": "node server.js",
     "serve": "node server.js",
@@ -20,14 +20,14 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.19"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.0",
     "autoprefixer": "^10.4.20",
     "concurrently": "^8.2.2",
     "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10",
-    "vite": "^5.4.19"
+    "tailwindcss": "^3.4.10"
   }
 }
