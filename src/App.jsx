@@ -106,7 +106,7 @@ const App = () => {
         { label: 'Yield Prediction', href: 'https://mdraihanahmad-cropyieldprediction.streamlit.app/', embed: false },
         { label: 'Disease Prediction', href: 'https://rhn-disease-prediction.streamlit.app/', embed: false },
         { label: 'Fertilizer Guide', href: 'https://www.india.gov.in/farmers-portal', embed: false },
-        { label: 'Weather Forecast', href: 'https://mdraihanahmad-weather.netlify.app/', embed: false },
+        { label: 'Weather Forecast', href: 'https://neon-bonbon-52be57.netlify.app/', embed: false },
         { label: 'Rainfall Forecast', href: 'https://fzn-rainfall-prediction.streamlit.app/', embed: false },
       ],
     },
